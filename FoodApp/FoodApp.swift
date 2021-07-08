@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct FoodApp: App {
+    @State private var shouldShowWelcomeScreen = false
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .sheet(isPresented: $shouldShowWelcomeScreen) {
+                    WelcomeView()
+                }
+                .onAppear {
+                    shouldShowWelcomeScreen = !Settings.shared.hasSeenWelcomeScreen
+                }
         }
     }
 }

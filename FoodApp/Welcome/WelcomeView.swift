@@ -15,6 +15,10 @@ struct WelcomeView: View {
         }
         .tabViewStyle(.page)
         .indexViewStyle(.page(backgroundDisplayMode: .always))
+        .onDisappear {
+            Settings.shared.hasSeenWelcomeScreen = true
+            Settings.shared.saveSettings()
+        }
     }
 }
 
