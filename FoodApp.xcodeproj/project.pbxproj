@@ -11,6 +11,11 @@
 		481A52DB2697827F0031008A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A52DA2697827F0031008A /* ContentView.swift */; };
 		481A52DD269782810031008A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 481A52DC269782810031008A /* Assets.xcassets */; };
 		481A52E0269782810031008A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 481A52DF269782810031008A /* Preview Assets.xcassets */; };
+		481A52EE269795FC0031008A /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A52ED269795FC0031008A /* WelcomeView.swift */; };
+		481A52F0269796290031008A /* FoodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A52EF269796290031008A /* FoodListView.swift */; };
+		481A52F2269796310031008A /* FoodListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A52F1269796310031008A /* FoodListItemView.swift */; };
+		481A52F42697963F0031008A /* FoodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A52F32697963F0031008A /* FoodDetailView.swift */; };
+		481A52F6269796A00031008A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A52F5269796A00031008A /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		481A52DC269782810031008A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		481A52DF269782810031008A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		481A52E62697854D0031008A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		481A52ED269795FC0031008A /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		481A52EF269796290031008A /* FoodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListView.swift; sourceTree = "<group>"; };
+		481A52F1269796310031008A /* FoodListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListItemView.swift; sourceTree = "<group>"; };
+		481A52F32697963F0031008A /* FoodDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailView.swift; sourceTree = "<group>"; };
+		481A52F5269796A00031008A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +95,7 @@
 		481A52E8269793AA0031008A /* Welcome */ = {
 			isa = PBXGroup;
 			children = (
+				481A52ED269795FC0031008A /* WelcomeView.swift */,
 			);
 			path = Welcome;
 			sourceTree = "<group>";
@@ -92,6 +103,8 @@
 		481A52E9269793BC0031008A /* FoodList */ = {
 			isa = PBXGroup;
 			children = (
+				481A52EF269796290031008A /* FoodListView.swift */,
+				481A52F1269796310031008A /* FoodListItemView.swift */,
 			);
 			path = FoodList;
 			sourceTree = "<group>";
@@ -99,6 +112,7 @@
 		481A52EA269793C40031008A /* FoodDetail */ = {
 			isa = PBXGroup;
 			children = (
+				481A52F32697963F0031008A /* FoodDetailView.swift */,
 			);
 			path = FoodDetail;
 			sourceTree = "<group>";
@@ -106,6 +120,7 @@
 		481A52EB269793D00031008A /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				481A52F5269796A00031008A /* SettingsView.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -187,7 +202,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				481A52F6269796A00031008A /* SettingsView.swift in Sources */,
 				481A52DB2697827F0031008A /* ContentView.swift in Sources */,
+				481A52F0269796290031008A /* FoodListView.swift in Sources */,
+				481A52F42697963F0031008A /* FoodDetailView.swift in Sources */,
+				481A52EE269795FC0031008A /* WelcomeView.swift in Sources */,
+				481A52F2269796310031008A /* FoodListItemView.swift in Sources */,
 				481A52D92697827F0031008A /* FoodApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
