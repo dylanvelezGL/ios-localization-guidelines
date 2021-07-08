@@ -8,13 +8,27 @@
 import SwiftUI
 
 struct FoodListItemView: View {
+    let item: FoodItem
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Image("")
+            VStack {
+                Text("Title of the item")
+                Text("Description of the item")
+                HStack {
+                    Text("Sizes of the item")
+                    Text("Price of the item")
+                }
+            }
+        }
     }
 }
 
 struct FoodListItem_Previews: PreviewProvider {
     static var previews: some View {
-        FoodListItemView()
+        FoodListItemView(item: FoodItem(name: "",
+                                        description: "",
+                                        imageName: "",
+                                        prices: [:]))
     }
 }

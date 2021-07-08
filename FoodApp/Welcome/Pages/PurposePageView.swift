@@ -9,7 +9,12 @@ import SwiftUI
 
 struct PurposePageView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Welcome to FoodApp")
+            Image(systemName: "mail")
+            Text("This app was made with the purpose of teaching some localization strategies")
+            Text("If you want to know more please look for the blog post here")
+        }
     }
 }
 

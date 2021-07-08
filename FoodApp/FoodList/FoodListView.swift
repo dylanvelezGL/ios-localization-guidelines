@@ -8,8 +8,14 @@
 import SwiftUI
 
 struct FoodListView: View {
+    @State private var items: [FoodItem] = foodItems
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Food App")
+            List(items) { item in
+                FoodListItemView(item: item)
+            }
+        }
     }
 }
 

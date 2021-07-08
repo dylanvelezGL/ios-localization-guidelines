@@ -9,7 +9,14 @@ import SwiftUI
 
 struct ChangeLocalePageView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Internationalization")
+            Image(systemName: "square")
+            Text("This app supports english, spanish and arabic")
+            Text("It also changes the UI based on RTL or LTR languages")
+            Text("In fact, you can change it right here or in the settings")
+            SettingsRadioGroupView()
+        }
     }
 }
 

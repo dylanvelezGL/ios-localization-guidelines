@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct FoodItem {
+struct FoodItem: Identifiable{
     typealias Price = Float
     enum Size {
         case small
@@ -15,6 +15,7 @@ struct FoodItem {
         case large
     }
     
+    let id: UUID = UUID()
     let name: String
     let description: String
     let imageName: String
