@@ -52,6 +52,7 @@
 		481A52D72697827F0031008A /* FoodApp */ = {
 			isa = PBXGroup;
 			children = (
+				481A52E62697854D0031008A /* Info.plist */,
 				481A52EC269793D70031008A /* Localization */,
 				481A52EB269793D00031008A /* Settings */,
 				481A52EA269793C40031008A /* FoodDetail */,
@@ -77,7 +78,6 @@
 		481A52E7269793970031008A /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				481A52E62697854D0031008A /* Info.plist */,
 			);
 			path = Config;
 			sourceTree = "<group>";
