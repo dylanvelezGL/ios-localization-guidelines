@@ -6,3 +6,26 @@
 //
 
 import Foundation
+import UIKit
+
+struct FoodItem {
+    typealias Price = Float
+    enum Size {
+        case small
+        case medium
+        case large
+    }
+    
+    let name: String
+    let description: String
+    let imageName: String
+    let prices: [Size: Price]
+}
+
+let foodItems = [
+    FoodItem(name: "Pizza", description: "", imageName: "", prices: [:]),
+    FoodItem(name: "Hamburguer", description: "", imageName: "", prices: [:]),
+    FoodItem(name: "Sandwich", description: "", imageName: "", prices: [:]),
+    FoodItem(name: "Salad", description: "", imageName: "", prices: [:]),
+    FoodItem(name: "Soup", description: "", imageName: "", prices: [:])
+]
