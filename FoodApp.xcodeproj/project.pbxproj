@@ -20,6 +20,7 @@
 		481A52FD2697979F0031008A /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A52FC2697979F0031008A /* FoodItem.swift */; };
 		481A5300269799B90031008A /* PurposePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A52FF269799B90031008A /* PurposePageView.swift */; };
 		481A530226979A200031008A /* ChangeLocalePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A530126979A200031008A /* ChangeLocalePageView.swift */; };
+		481A530426979ED10031008A /* Locales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A530326979ED10031008A /* Locales.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		481A52FC2697979F0031008A /* FoodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
 		481A52FF269799B90031008A /* PurposePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurposePageView.swift; sourceTree = "<group>"; };
 		481A530126979A200031008A /* ChangeLocalePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeLocalePageView.swift; sourceTree = "<group>"; };
+		481A530326979ED10031008A /* Locales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locales.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				481A52FC2697979F0031008A /* FoodItem.swift */,
+				481A530326979ED10031008A /* Locales.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				481A52FD2697979F0031008A /* FoodItem.swift in Sources */,
 				481A52F42697963F0031008A /* FoodDetailView.swift in Sources */,
 				481A5300269799B90031008A /* PurposePageView.swift in Sources */,
+				481A530426979ED10031008A /* Locales.swift in Sources */,
 				481A52EE269795FC0031008A /* WelcomeView.swift in Sources */,
 				481A52F2269796310031008A /* FoodListItemView.swift in Sources */,
 				481A530226979A200031008A /* ChangeLocalePageView.swift in Sources */,
