@@ -12,6 +12,7 @@ struct FoodListView: View {
     var body: some View {
         VStack {
             Text("Food App")
+                .font(.title)
             List(items) { item in
                 FoodListItemView(item: item)
             }
