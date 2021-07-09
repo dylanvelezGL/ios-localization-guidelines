@@ -10,14 +10,24 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            FoodListView(items: foodItems)
-                .tabItem {
-                    Label("Food", systemImage: "list.dash")
-                }
-            SettingsView()
-                .tabItem {
-                    Label("Settings", systemImage: "gearshape.fill")
-                }
+            NavigationView {
+                FoodListView(items: foodItems)
+                    .navigationBarTitle("Food App")
+            }
+            .tabItem {
+                Label("Food", systemImage: "list.dash")
+            }
+            
+            NavigationView {
+                SettingsView()
+                    .navigationBarTitle("Settings")
+                    .onDisappear {
+                        Settings.shared.saveSettings()
+                    }
+            }
+            .tabItem {
+                Label("Settings", systemImage: "gearshape.fill")
+            }
         }
     }
 }

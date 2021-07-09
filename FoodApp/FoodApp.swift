@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct FoodApp: App {
-    @State private var shouldShowWelcomeScreen = false
+    @State private var shouldShowWelcomeScreen = !Settings.shared.hasSeenWelcomeScreen
     var body: some Scene {
         WindowGroup {
             ContentView()

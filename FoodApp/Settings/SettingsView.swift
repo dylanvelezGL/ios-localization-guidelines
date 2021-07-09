@@ -8,8 +8,40 @@
 import SwiftUI
 
 struct SettingsView: View {
+    
+    @State private var showWelcomeScreen = !Settings.shared.hasSeenWelcomeScreen
+    @State private var selectedLocale = Settings.shared.locale
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        let welcomeScreenBinding = Binding<Bool>(get: {
+              self.showWelcomeScreen
+          }, set: {
+              self.showWelcomeScreen = $0
+              Settings.shared.hasSeenWelcomeScreen = !$0
+              Settings.shared.saveSettings()
+          })
+        
+        let localeBinding = Binding<SupportedLocale>(get: {
+              self.selectedLocale
+          }, set: {
+              self.selectedLocale = $0
+              Settings.shared.locale = $0
+              Settings.shared.saveSettings()
+          })
+        
+        List {
+            Section("Welcome Screen") {
+                Toggle("Show Welcome Screen", isOn: welcomeScreenBinding)
+                    .padding()
+            }
+            
+            Section("Internationalization") {
+                Picker("Language", selection: localeBinding) {
+                    Text("English").tag(SupportedLocale.english)
+                    Text("Español").tag(SupportedLocale.spanish)
+                    Text("Arabic").tag(SupportedLocale.arabic)
+                }
+            }
+        }
     }
 }
 
