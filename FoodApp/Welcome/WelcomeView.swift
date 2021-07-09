@@ -11,14 +11,9 @@ struct WelcomeView: View {
     var body: some View {
         TabView {
             PurposePageView()
-            ChangeLocalePageView()
         }
         .tabViewStyle(.page)
         .indexViewStyle(.page(backgroundDisplayMode: .always))
-        .onDisappear {
-            Settings.shared.hasSeenWelcomeScreen = true
-            Settings.shared.saveSettings()
-        }
     }
 }
 
