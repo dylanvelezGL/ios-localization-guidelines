@@ -8,13 +8,14 @@
 import SwiftUI
 
 struct FoodListView: View {
-    @State private var items: [FoodItem] = foodItems
+    var items: [FoodItem]
     var body: some View {
         VStack {
             Text("Food App")
                 .font(.title)
             List(items) { item in
                 FoodListItemView(item: item)
+                    .padding()
             }
         }
     }
@@ -22,6 +23,6 @@ struct FoodListView: View {
 
 struct FoodList_Previews: PreviewProvider {
     static var previews: some View {
-        FoodListView()
+        FoodListView(items: foodItems)
     }
 }

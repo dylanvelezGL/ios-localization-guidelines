@@ -11,24 +11,31 @@ struct FoodListItemView: View {
     let item: FoodItem
     var body: some View {
         HStack {
-            Image("")
-            VStack {
-                Text("Title of the item")
-                Text("Description of the item")
-                HStack {
-                    Text("Sizes of the item")
-                    Text("Price of the item")
-                }
+            Image(item.imageName)
+                .resizable()
+                .scaledToFill()
+                .frame(width: 80, height: 80)
+                .clipped()
+                .cornerRadius(12)
+            VStack(alignment: .leading, spacing: 2) {
+                Text(item.name)
+                    .font(.headline)
+                Text(item.description)
+                    .lineLimit(3)
+                    .font(.caption)
+                Text("Price: \(item.price)")
+                    .font(.caption)
             }
+            .frame(maxWidth: .infinity)
         }
     }
 }
 
 struct FoodListItem_Previews: PreviewProvider {
     static var previews: some View {
-        FoodListItemView(item: FoodItem(name: "",
-                                        description: "",
-                                        imageName: "",
-                                        prices: [:]))
+        FoodListItemView(item: FoodItem(name: "Pizza",
+                                        description: "Delicious pepperoni pizza with extra cheese and secret italian spices",
+                                        imageName: "pizza",
+                                        price: 10))
     }
 }
