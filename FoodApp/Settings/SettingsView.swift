@@ -30,16 +30,16 @@ struct SettingsView: View {
           })
         
         List {
-            Section(Strings.welcomeScreen) {
-                Toggle(Strings.showWelcomeScreen, isOn: welcomeScreenBinding)
+            Section(Strings.welcomeScreen.localizedStringKey) {
+                Toggle(Strings.showWelcomeScreen.localizedStringKey, isOn: welcomeScreenBinding)
                     .padding()
             }
             
-            Section(Strings.internationalization) {
-                Picker(Strings.language, selection: localeBinding) {
-                    Text(Strings.english).tag(SupportedLocale.english)
-                    Text(Strings.espanol).tag(SupportedLocale.spanish)
-                    Text(Strings.arabic).tag(SupportedLocale.arabic)
+            Section(Strings.internationalization.localizedStringKey) {
+                Picker(Strings.language.localizedStringKey, selection: localeBinding) {
+                    Text(Strings.english.localizedStringKey).tag(SupportedLocale.english)
+                    Text(Strings.espanol.localizedStringKey).tag(SupportedLocale.spanish)
+                    Text(Strings.arabic.localizedStringKey).tag(SupportedLocale.arabic)
                 }
             }
         }
@@ -49,5 +49,6 @@ struct SettingsView: View {
 struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {
         SettingsView()
+            .environment(\.locale, .init(identifier: "en"))
     }
 }

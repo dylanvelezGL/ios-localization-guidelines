@@ -20,5 +20,6 @@ struct FoodListView: View {
 struct FoodList_Previews: PreviewProvider {
     static var previews: some View {
         FoodListView(items: foodItems)
+            .environment(\.locale, .init(identifier: "es"))
     }
 }

@@ -18,9 +18,9 @@ struct FoodListItemView: View {
                 .clipped()
                 .cornerRadius(12)
             VStack(alignment: .leading, spacing: 2) {
-                Text(item.name)
+                Text(item.name.localizedStringKey)
                     .font(.headline)
-                Text(item.description)
+                Text(item.description.localizedStringKey)
                     .lineLimit(3)
                     .font(.caption)
                 Text(NumberFormatter.localizedString(from: NSNumber(value: item.price), number: .currency))
@@ -38,5 +38,6 @@ struct FoodListItem_Previews: PreviewProvider {
                                         description: Localization.Food.pizzaDescription,
                                         imageName: "pizza",
                                         price: 10))
+            .environment(\.locale, .init(identifier: "en"))
     }
 }

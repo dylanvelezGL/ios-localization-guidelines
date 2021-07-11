@@ -25,6 +25,7 @@
 		48E25338269B81B800236221 /* SettingsView+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E25337269B81B800236221 /* SettingsView+Localization.swift */; };
 		48E2533A269B81D000236221 /* WelcomeView+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E25339269B81D000236221 /* WelcomeView+Localization.swift */; };
 		48E2533C269B81D900236221 /* App+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E2533B269B81D900236221 /* App+Localization.swift */; };
+		48E2533F269B8E0100236221 /* String+LocalizedStringKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E2533E269B8E0100236221 /* String+LocalizedStringKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		48E25337269B81B800236221 /* SettingsView+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsView+Localization.swift"; sourceTree = "<group>"; };
 		48E25339269B81D000236221 /* WelcomeView+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WelcomeView+Localization.swift"; sourceTree = "<group>"; };
 		48E2533B269B81D900236221 /* App+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App+Localization.swift"; sourceTree = "<group>"; };
+		48E2533E269B8E0100236221 /* String+LocalizedStringKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+LocalizedStringKey.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 		481A52EC269793D70031008A /* Localization */ = {
 			isa = PBXGroup;
 			children = (
+				48E2533D269B8DEF00236221 /* Utils */,
 				48E25336269B81A700236221 /* Views */,
 				481A5309269AA07E0031008A /* Localized.swift */,
 				48E25334269B819300236221 /* LocalizedStrings.swift */,
@@ -183,6 +186,14 @@
 				48E2533B269B81D900236221 /* App+Localization.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		48E2533D269B8DEF00236221 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				48E2533E269B8E0100236221 /* String+LocalizedStringKey.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 				481A52F6269796A00031008A /* SettingsView.swift in Sources */,
 				481A52DB2697827F0031008A /* ContentView.swift in Sources */,
 				481A52F92697974E0031008A /* Settings.swift in Sources */,
+				48E2533F269B8E0100236221 /* String+LocalizedStringKey.swift in Sources */,
 				481A52F0269796290031008A /* FoodListView.swift in Sources */,
 				481A52FD2697979F0031008A /* FoodItem.swift in Sources */,
 				48E2533C269B81D900236221 /* App+Localization.swift in Sources */,

@@ -22,14 +22,14 @@ struct PurposePageView: View {
         VStack {
             Spacer()
                 .frame(height: 40)
-            Text(Strings.welcome)
+            Text(Strings.welcome.localizedStringKey)
                 .font(.largeTitle)
             Spacer()
                 .frame(height: 40)
             Image("groceries")
             Spacer()
                 .frame(height: 40)
-            Text(Strings.welcomeText)
+            Text(Strings.welcomeText.localizedStringKey)
                 .font(.footnote)
                 .padding()
             Spacer()
@@ -46,6 +46,6 @@ struct PurposePageView: View {
 struct PurposePageView_Previews: PreviewProvider {
     static var previews: some View {
         PurposePageView()
-            .environment(\.locale, .init(identifier: "es"))
+            .environment(\.locale, .init(identifier: "en"))
     }
 }
