@@ -8,6 +8,16 @@
 import SwiftUI
 
 struct PurposePageView: View {
+    var blogText: AttributedString {
+        var attributedString = AttributedString("For more info please visit the blog post here or visit the github page")
+        let hereRange = attributedString.range(of: "here")!
+        let pageRange = attributedString.range(of: "page")!
+        attributedString[hereRange].link = URL(string: "https://gorillalogic.com/blog/")
+        attributedString[pageRange].link = URL(string: "https://github.com/DylanVelezCode/ios-localization-guidelines")
+        
+        return attributedString
+    }
+    
     var body: some View {
         VStack {
             Spacer()
@@ -24,7 +34,7 @@ struct PurposePageView: View {
                 .padding()
             Spacer()
                 .frame(height: 20)
-            Text("For more info please visit this blog post here")
+            Text(blogText)
                 .font(.headline)
                 .padding()
             Spacer()
