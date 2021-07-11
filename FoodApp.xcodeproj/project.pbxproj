@@ -26,6 +26,7 @@
 		48E2533A269B81D000236221 /* WelcomeView+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E25339269B81D000236221 /* WelcomeView+Localization.swift */; };
 		48E2533C269B81D900236221 /* App+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E2533B269B81D900236221 /* App+Localization.swift */; };
 		48E2533F269B8E0100236221 /* String+LocalizedStringKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E2533E269B8E0100236221 /* String+LocalizedStringKey.swift */; };
+		48E25343269B9F8500236221 /* FoodList+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E25342269B9F8500236221 /* FoodList+Localization.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		48E25339269B81D000236221 /* WelcomeView+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WelcomeView+Localization.swift"; sourceTree = "<group>"; };
 		48E2533B269B81D900236221 /* App+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App+Localization.swift"; sourceTree = "<group>"; };
 		48E2533E269B8E0100236221 /* String+LocalizedStringKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+LocalizedStringKey.swift"; sourceTree = "<group>"; };
+		48E25342269B9F8500236221 /* FoodList+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FoodList+Localization.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +186,7 @@
 				48E25337269B81B800236221 /* SettingsView+Localization.swift */,
 				48E25339269B81D000236221 /* WelcomeView+Localization.swift */,
 				48E2533B269B81D900236221 /* App+Localization.swift */,
+				48E25342269B9F8500236221 /* FoodList+Localization.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				481A530426979ED10031008A /* Locales.swift in Sources */,
 				481A52EE269795FC0031008A /* WelcomeView.swift in Sources */,
 				48E25335269B819300236221 /* LocalizedStrings.swift in Sources */,
+				48E25343269B9F8500236221 /* FoodList+Localization.swift in Sources */,
 				481A52F2269796310031008A /* FoodListItemView.swift in Sources */,
 				481A530A269AA07E0031008A /* Localized.swift in Sources */,
 				481A52D92697827F0031008A /* FoodApp.swift in Sources */,

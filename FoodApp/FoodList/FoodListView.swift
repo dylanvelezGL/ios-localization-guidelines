@@ -10,9 +10,15 @@ import SwiftUI
 struct FoodListView: View {
     var items: [FoodItem]
     var body: some View {
-        List(items) { item in
-            FoodListItemView(item: item)
-                .padding()
+        VStack {
+            Text(Strings
+                    .availableRecipes
+                    .pluralized(number: items.count)
+                    .localizedStringKey)
+            List(items) { item in
+                FoodListItemView(item: item)
+                    .padding()
+            }
         }
     }
 }

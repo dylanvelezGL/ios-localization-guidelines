@@ -40,4 +40,8 @@ struct Localization {
         static let food = String(localized: "Food", comment: "Tab bar item")
         static let settings = String(localized: "Settings", comment: "Tab bar item")
     }
+    
+    struct FoodList {
+        static let availableRecipes = String(localized: "There are %ld recipes available", comment: "Pluralized number of recipes available")
+    }
 }

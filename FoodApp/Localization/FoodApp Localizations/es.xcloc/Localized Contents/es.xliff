@@ -108,6 +108,10 @@
         <source>Español</source>
         <note>Spanish language option</note>
       </trans-unit>
+      <trans-unit id="There are %ld recipes available" xml:space="preserve">
+        <source>There are %ld recipes available</source>
+        <note>Pluralized number of recipes available</note>
+      </trans-unit>
       <trans-unit id="This app was made with the purpose of teaching some localization strategies. &#10;It includes localization for English, Spanish and Arabic and you can switch between the locales at any time in the settings screen." xml:space="preserve">
         <source>This app was made with the purpose of teaching some localization strategies. 
 It includes localization for English, Spanish and Arabic and you can switch between the locales at any time in the settings screen.</source>
