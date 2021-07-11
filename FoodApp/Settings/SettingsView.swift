@@ -7,10 +7,13 @@
 
 import SwiftUI
 
-struct SettingsView: View {
+struct SettingsView: View, Localizable {
+    
+    typealias Strings = Localized.Settings
     
     @State private var showWelcomeScreen = !Settings.shared.hasSeenWelcomeScreen
     @State private var selectedLocale = Settings.shared.locale
+    
     var body: some View {
         let welcomeScreenBinding = Binding<Bool>(get: {
               self.showWelcomeScreen
@@ -29,16 +32,16 @@ struct SettingsView: View {
           })
         
         List {
-            Section("Welcome Screen") {
-                Toggle("Show Welcome Screen", isOn: welcomeScreenBinding)
+            Section(Strings.welcomeScreen) {
+                Toggle(Strings.showWelcomeScreen, isOn: welcomeScreenBinding)
                     .padding()
             }
             
-            Section("Internationalization") {
-                Picker("Language", selection: localeBinding) {
-                    Text("English").tag(SupportedLocale.english)
-                    Text("Español").tag(SupportedLocale.spanish)
-                    Text("Arabic").tag(SupportedLocale.arabic)
+            Section(Strings.internationalization) {
+                Picker(Strings.language, selection: localeBinding) {
+                    Text(Strings.english).tag(SupportedLocale.english)
+                    Text(Strings.espanol).tag(SupportedLocale.spanish)
+                    Text(Strings.arabic).tag(SupportedLocale.arabic)
                 }
             }
         }

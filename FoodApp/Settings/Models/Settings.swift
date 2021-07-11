@@ -35,6 +35,7 @@ private extension Settings {
     enum Keys {
         static let welcome = "com.dylansvm.localization.settings.welcome"
         static let locale = "com.dylansvm.localization.settings.locale"
+
     }
 }
 
