@@ -17,7 +17,7 @@ final class Settings {
     
     private func loadSettings() {
         hasSeenWelcomeScreen = UserDefaults.standard.bool(forKey: Keys.welcome)
-        let appleLocaleValue = UserDefaults.standard.array(forKey: "AppleLanguages") as? [String]
+        let appleLocaleValue = UserDefaults.standard.array(forKey: Keys.appleLanguages) as? [String]
         if let appleArray = appleLocaleValue, let appleValue = appleArray.compactMap({ SupportedLocale.fromSetting(value: $0)}).first {
             locale = appleValue
         } else {
@@ -27,7 +27,7 @@ final class Settings {
     
     func saveSettings() {
         UserDefaults.standard.set(hasSeenWelcomeScreen, forKey: Keys.welcome)
-        UserDefaults.standard.set([locale.localeString], forKey: "AppleLanguages")
+        UserDefaults.standard.set([locale.localeString], forKey: Keys.appleLanguages)
     }
 }
 
@@ -35,7 +35,7 @@ private extension Settings {
     enum Keys {
         static let welcome = "com.dylansvm.localization.settings.welcome"
         static let locale = "com.dylansvm.localization.settings.locale"
-
+        static let appleLanguages = "AppleLanguages"
     }
 }
 

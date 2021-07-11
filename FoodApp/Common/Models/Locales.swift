@@ -16,7 +16,6 @@ enum SupportedLocale: LocaleRepresentable {
     case spanish
     case arabic
     
-    //TODO: Get the correct locale string
     var localeString: String {
         switch self {
         case .english:

@@ -7,26 +7,27 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContentView: View, Localizable {
+    typealias Strings = Localized.App
     var body: some View {
         TabView {
             NavigationView {
                 FoodListView(items: foodItems)
-                    .navigationBarTitle("Food App")
+                    .navigationBarTitle(Strings.foodApp)
             }
             .tabItem {
-                Label("Food", systemImage: "list.dash")
+                Label(Strings.food, systemImage: "list.dash")
             }
             
             NavigationView {
                 SettingsView()
-                    .navigationBarTitle("Settings")
+                    .navigationBarTitle(Strings.settings)
                     .onDisappear {
                         Settings.shared.saveSettings()
                     }
             }
             .tabItem {
-                Label("Settings", systemImage: "gearshape.fill")
+                Label(Strings.settings, systemImage: "gearshape.fill")
             }
         }
     }

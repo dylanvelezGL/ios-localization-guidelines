@@ -7,14 +7,15 @@
 
 import SwiftUI
 
-struct PurposePageView: View {
+struct PurposePageView: View, Localizable {
+    typealias Strings = Localized.Welcome
+    
     var blogText: AttributedString {
-        var attributedString = AttributedString("For more info please visit the blog post here or visit the github page")
-        let hereRange = attributedString.range(of: "here")!
-        let pageRange = attributedString.range(of: "page")!
-        attributedString[hereRange].link = URL(string: "https://gorillalogic.com/blog/")
-        attributedString[pageRange].link = URL(string: "https://github.com/DylanVelezCode/ios-localization-guidelines")
-        
+        var attributedString = Strings.moreInfo
+        let hereRange = attributedString.range(of: Strings.here)!
+        let pageRange = attributedString.range(of: Strings.page)!
+        attributedString[hereRange].link = URL(string: Strings.blogLink)
+        attributedString[pageRange].link = URL(string: Strings.githubLink)
         return attributedString
     }
     
@@ -22,14 +23,14 @@ struct PurposePageView: View {
         VStack {
             Spacer()
                 .frame(height: 40)
-            Text("Welcome to FoodApp")
+            Text(Strings.welcome)
                 .font(.largeTitle)
             Spacer()
                 .frame(height: 40)
             Image("groceries")
             Spacer()
                 .frame(height: 40)
-            Text("This app was made with the purpose of teaching some localization strategies. \nIt includes localization for English, Spanish and Arabic and you can switch between the locales at any time in the settings screen.")
+            Text(Strings.welcomeText)
                 .font(.footnote)
                 .padding()
             Spacer()

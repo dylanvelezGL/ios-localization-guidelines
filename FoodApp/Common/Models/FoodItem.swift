@@ -18,20 +18,20 @@ struct FoodItem: Identifiable{
 }
 
 let foodItems = [
-    FoodItem(name: "Pizza",
-             description: "Delicious pepperoni pizza with extra cheese and secret italian spices",
+    FoodItem(name: Localized.Food.pizza,
+             description: Localized.Food.pizzaDescription,
              imageName: "pizza",
              price: 10),
-    FoodItem(name: "Hamburguer",
-             description: "American style hamburguer with double cheese and 250gr mixed meat",
+    FoodItem(name: Localized.Food.hamburger,
+             description: Localized.Food.hamburgerDescription,
              imageName: "hamburger",
              price: 6.99),
-    FoodItem(name: "Sandwich",
-             description: "Yummy large sandwich with a mix of vegetables and cheese",
+    FoodItem(name: Localized.Food.sandwich,
+             description: Localized.Food.sandwichDescription,
              imageName: "sandwich",
              price: 8.20),
-    FoodItem(name: "Salad",
-             description: "Healthiest and biggest salad you can find without forgetting all the flavor",
+    FoodItem(name: Localized.Food.salad,
+             description: Localized.Food.saladDescription,
              imageName: "salad",
              price: 15)
 ]
