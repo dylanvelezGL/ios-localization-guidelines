@@ -23,8 +23,9 @@ struct FoodListItemView: View {
                 Text(item.description)
                     .lineLimit(3)
                     .font(.caption)
-                Text("Price: \(item.price)")
+                Text(NumberFormatter.localizedString(from: NSNumber(value: item.price), number: .currency))
                     .font(.caption)
+                    .foregroundColor(.secondary)
             }
             .frame(maxWidth: .infinity)
         }
