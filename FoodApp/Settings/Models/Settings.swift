@@ -17,8 +17,9 @@ final class Settings {
     
     private func loadSettings() {
         hasSeenWelcomeScreen = UserDefaults.standard.bool(forKey: Keys.welcome)
-        if let value =  UserDefaults.standard.string(forKey: Keys.locale) {
-            locale = SupportedLocale.fromSetting(value: value)
+        let appleLocaleValue = UserDefaults.standard.array(forKey: "AppleLanguages") as? [String]
+        if let appleArray = appleLocaleValue, let appleValue = appleArray.compactMap({ SupportedLocale.fromSetting(value: $0)}).first {
+            locale = appleValue
         } else {
             locale = .english
         }
@@ -26,7 +27,7 @@ final class Settings {
     
     func saveSettings() {
         UserDefaults.standard.set(hasSeenWelcomeScreen, forKey: Keys.welcome)
-        UserDefaults.standard.set(locale.localeString, forKey: Keys.locale)
+        UserDefaults.standard.set([locale.localeString], forKey: "AppleLanguages")
     }
 }
 
@@ -39,14 +40,16 @@ private extension Settings {
 
 fileprivate extension SupportedLocale {
     
-    static func fromSetting(value: String) -> SupportedLocale {
+    static func fromSetting(value: String) -> SupportedLocale? {
         switch value {
         case "es":
             return .spanish
         case "ar":
             return .arabic
-        default:
+        case "en":
             return .english
+        default:
+            return nil
         }
     }
 }
