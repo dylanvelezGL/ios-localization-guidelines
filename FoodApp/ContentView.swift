@@ -7,8 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View, Localizable {
-    typealias Strings = Localized.App
+struct ContentView: View {
     var body: some View {
         TabView {
             NavigationView {

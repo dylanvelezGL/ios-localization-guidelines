@@ -7,8 +7,7 @@
 
 import SwiftUI
 
-struct PurposePageView: View, Localizable {
-    typealias Strings = Localized.Welcome
+struct PurposePageView: View {
     
     var blogText: AttributedString {
         var attributedString = Strings.moreInfo
@@ -47,5 +46,6 @@ struct PurposePageView: View, Localizable {
 struct PurposePageView_Previews: PreviewProvider {
     static var previews: some View {
         PurposePageView()
+            .environment(\.locale, .init(identifier: "es"))
     }
 }

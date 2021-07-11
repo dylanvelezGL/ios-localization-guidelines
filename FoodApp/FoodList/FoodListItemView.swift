@@ -34,8 +34,8 @@ struct FoodListItemView: View {
 
 struct FoodListItem_Previews: PreviewProvider {
     static var previews: some View {
-        FoodListItemView(item: FoodItem(name: Localized.Food.pizza,
-                                        description: Localized.Food.pizzaDescription,
+        FoodListItemView(item: FoodItem(name: Localization.Food.pizza,
+                                        description: Localization.Food.pizzaDescription,
                                         imageName: "pizza",
                                         price: 10))
     }

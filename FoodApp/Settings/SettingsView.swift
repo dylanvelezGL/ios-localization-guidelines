@@ -7,9 +7,7 @@
 
 import SwiftUI
 
-struct SettingsView: View, Localizable {
-    
-    typealias Strings = Localized.Settings
+struct SettingsView: View {
     
     @State private var showWelcomeScreen = !Settings.shared.hasSeenWelcomeScreen
     @State private var selectedLocale = Settings.shared.locale
