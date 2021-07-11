@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="FoodApp/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="es">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5154h"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>FoodApp</source>
+        <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="FoodApp/en.lproj/Localizable.strings" datatype="plaintext" source-language="en" target-language="es">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5154h"/>
+    </header>
+    <body>
+      <trans-unit id="American style hamburguer with double cheese and 250gr mixed meat" xml:space="preserve">
+        <source>American style hamburguer with double cheese and 250gr mixed meat</source>
+        <target>Hamburguesa estilo americano con doble queso y 250 gramos de carne combinada</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Arabic" xml:space="preserve">
+        <source>Arabic</source>
+        <target>Árabe</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Delicious pepperoni pizza with extra cheese and secret italian spices" xml:space="preserve">
+        <source>Delicious pepperoni pizza with extra cheese and secret italian spices</source>
+        <target>Deliciosa pizza de pepperoni con queso extra y especias italianas secretas</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="English" xml:space="preserve">
+        <source>English</source>
+        <target>Inglés</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Español" xml:space="preserve">
+        <source>Español</source>
+        <target>Español</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Food" xml:space="preserve">
+        <source>Food</source>
+        <target>Comida</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Food App" xml:space="preserve">
+        <source>Food App</source>
+        <target>Food App</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="For more info please visit the blog post here or visit the github page" xml:space="preserve">
+        <source>For more info please visit the blog post here or visit the github page</source>
+        <target>Para mas información visite el blog post aquí o la página de github</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Hamburguer" xml:space="preserve">
+        <source>Hamburguer</source>
+        <target>Hamburguesa</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Healthiest and biggest salad you can find without forgetting all the flavor" xml:space="preserve">
+        <source>Healthiest and biggest salad you can find without forgetting all the flavor</source>
+        <target>La ensalada mas grande y saludable que puedes encontrar sin dejar pasar todo el sabor</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Internationalization" xml:space="preserve">
+        <source>Internationalization</source>
+        <target>Internacionalización</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Language" xml:space="preserve">
+        <source>Language</source>
+        <target>Idioma</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Pizza" xml:space="preserve">
+        <source>Pizza</source>
+        <target>Pizza</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Salad" xml:space="preserve">
+        <source>Salad</source>
+        <target>Ensalada</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Sandwich" xml:space="preserve">
+        <source>Sandwich</source>
+        <target>Sanduche</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Settings" xml:space="preserve">
+        <source>Settings</source>
+        <target>Configuración</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Show Welcome Screen" xml:space="preserve">
+        <source>Show Welcome Screen</source>
+        <target>Mostrar pantalla de bienvenida</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="This app was made with the purpose of teaching some localization strategies. &#10;It includes localization for English, Spanish and Arabic and you can switch between the locales at any time in the settings screen." xml:space="preserve">
+        <source>This app was made with the purpose of teaching some localization strategies. 
+It includes localization for English, Spanish and Arabic and you can switch between the locales at any time in the settings screen.</source>
+        <target>Esta app fue hecha con el propósito de enseñar algunas estrategias de localización. Incluye Inglés, Español, Árabe e incluso puedes cambiar entre ellos en cualquier momento en la pantalla de configuración.</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Welcome Screen" xml:space="preserve">
+        <source>Welcome Screen</source>
+        <target>Pantalla de Bienvenida</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Welcome to FoodApp" xml:space="preserve">
+        <source>Welcome to FoodApp</source>
+        <target>Te damos la bienvenida a FoodApp</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Yummy large sandwich with a mix of vegetables and cheese" xml:space="preserve">
+        <source>Yummy large sandwich with a mix of vegetables and cheese</source>
+        <target>Delicioso sandwich grande con una combinación de vegetales y queso</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="here" xml:space="preserve">
+        <source>here</source>
+        <target>aquí</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="https://github.com/DylanVelezCode/ios-localization-guidelines" xml:space="preserve">
+        <source>https://github.com/DylanVelezCode/ios-localization-guidelines</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="https://gorillalogic.com/blog/" xml:space="preserve">
+        <source>https://gorillalogic.com/blog/</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="page" xml:space="preserve">
+        <source>page</source>
+        <target>página</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
