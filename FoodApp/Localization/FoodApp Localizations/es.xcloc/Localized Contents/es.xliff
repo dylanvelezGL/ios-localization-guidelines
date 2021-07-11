@@ -49,6 +49,11 @@
         <target>Food App</target>
         <note>Title of the app in the navigation</note>
       </trans-unit>
+      <trans-unit id="For more info please visit the blog post [here](https://gorillalogic.com/blog/) or visit the github [page](https://github.com/DylanVelezCode/ios-localization-guidelines)" xml:space="preserve">
+        <source>For more info please visit the blog post [here](https://gorillalogic.com/blog/) or visit the github [page](https://github.com/DylanVelezCode/ios-localization-guidelines)</source>
+        <target>Para obtener más información, visite la publicación del blog [aquí](https://gorillalogic.com/blog/) o visite la [página](https://github.com/DylanVelezCode/ios-localization-guidelines) de github</target>
+        <note>Text with links to know more about the project</note>
+      </trans-unit>
       <trans-unit id="For more info please visit the blog post here or visit the github page" xml:space="preserve">
         <source>For more info please visit the blog post here or visit the github page</source>
         <target>Para mas información visite el blog post aquí o la página de github</target>
@@ -128,14 +133,6 @@ It includes localization for English, Spanish and Arabic and you can switch betw
         <source>here</source>
         <target>aquí</target>
         <note>This is replaced by the gorilla logic blog link</note>
-      </trans-unit>
-      <trans-unit id="https://github.com/DylanVelezCode/ios-localization-guidelines" xml:space="preserve">
-        <source>https://github.com/DylanVelezCode/ios-localization-guidelines</source>
-        <note>Github link</note>
-      </trans-unit>
-      <trans-unit id="https://gorillalogic.com/blog/" xml:space="preserve">
-        <source>https://gorillalogic.com/blog/</source>
-        <note>Gorilla logic blog link</note>
       </trans-unit>
       <trans-unit id="page" xml:space="preserve">
         <source>page</source>

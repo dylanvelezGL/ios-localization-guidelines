@@ -14,6 +14,9 @@
 "Food App" = "Food App";
 
 /* Text with links to know more about the project */
+"For more info please visit the blog post [here](https://gorillalogic.com/blog/) or visit the github [page](https://github.com/DylanVelezCode/ios-localization-guidelines)" = "Para obtener más información, visite la publicación del blog [aquí](https://gorillalogic.com/blog/) o visite la [página](https://github.com/DylanVelezCode/ios-localization-guidelines) de github";
+
+/* Text with links to know more about the project */
 "For more info please visit the blog post here or visit the github page" = "Para mas información visite el blog post aquí o la página de github";
 
 /* No comment provided by engineer. */

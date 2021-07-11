@@ -8,16 +8,6 @@
 import SwiftUI
 
 struct PurposePageView: View {
-    
-    var blogText: AttributedString {
-        var attributedString = Strings.moreInfo
-        let hereRange = attributedString.range(of: Strings.here)!
-        let pageRange = attributedString.range(of: Strings.page)!
-        attributedString[hereRange].link = URL(string: Strings.blogLink)
-        attributedString[pageRange].link = URL(string: Strings.githubLink)
-        return attributedString
-    }
-    
     var body: some View {
         VStack {
             Spacer()
@@ -34,7 +24,7 @@ struct PurposePageView: View {
                 .padding()
             Spacer()
                 .frame(height: 20)
-            Text(blogText)
+            Text(Strings.moreInfo)
                 .font(.headline)
                 .padding()
             Spacer()

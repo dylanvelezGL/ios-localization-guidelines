@@ -30,11 +30,7 @@ struct Localization {
     }
     
     struct Welcome {
-        static let moreInfo = AttributedString(localized: "For more info please visit the blog post here or visit the github page", comment: "Text with links to know more about the project")
-        static let here = String(localized: "here", comment: "This is replaced by the gorilla logic blog link")
-        static let page = String(localized: "page", comment: "This is replaced with the github link")
-        static let blogLink = String(localized: "https://gorillalogic.com/blog/", comment: "Gorilla logic blog link")
-        static let githubLink = String(localized: "https://github.com/DylanVelezCode/ios-localization-guidelines", comment: "Github link")
+        static let moreInfo = AttributedString(localized: "For more info please visit the blog post [here](https://gorillalogic.com/blog/) or visit the github [page](https://github.com/DylanVelezCode/ios-localization-guidelines)", comment: "Text with links to know more about the project")
         static let welcome = String(localized: "Welcome to FoodApp", comment: "Title of the welcome screen")
         static let welcomeText = String(localized: "This app was made with the purpose of teaching some localization strategies. \nIt includes localization for English, Spanish and Arabic and you can switch between the locales at any time in the settings screen.", comment: "Purpose of the app")
     }
