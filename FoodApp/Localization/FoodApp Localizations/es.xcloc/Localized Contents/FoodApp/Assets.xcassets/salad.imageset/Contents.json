@@ -1,0 +1,17 @@
+{
+  "images" : [
+    {
+      "locale" : "es",
+      "idiom" : "universal",
+      "filename" : "ensalada.jpeg",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "localizable" : true
+  }
+}
