@@ -42,6 +42,6 @@ struct Localization {
     }
     
     struct FoodList {
-        static let availableRecipes = "There are %ld recipes available"
+        static let availableRecipes = AttributedString(localized: "There are ^[%lld](inflect: true) recipes left", comment: "Pluralized quantity of items in the food list")
     }
 }

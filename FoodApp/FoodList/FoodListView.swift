@@ -11,10 +11,6 @@ struct FoodListView: View {
     var items: [FoodItem]
     var body: some View {
         VStack {
-            Text(Strings
-                    .availableRecipes
-                    .pluralized(number: items.count)
-                    .localizedStringKey)
             List(items) { item in
                 FoodListItemView(item: item)
                     .padding()

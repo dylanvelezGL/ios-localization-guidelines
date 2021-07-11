@@ -12,8 +12,4 @@ extension String {
     var localizedStringKey: LocalizedStringKey {
         return LocalizedStringKey(self)
     }
-    
-    func pluralized(number: Int) -> String {
-        return String.localizedStringWithFormat(self, number)
-    }
 }

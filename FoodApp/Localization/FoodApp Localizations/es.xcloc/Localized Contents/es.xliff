@@ -108,9 +108,9 @@
         <source>Español</source>
         <note>Spanish language option</note>
       </trans-unit>
-      <trans-unit id="There are %ld recipes available" xml:space="preserve">
-        <source>There are %ld recipes available</source>
-        <note>Pluralized number of recipes available</note>
+      <trans-unit id="There are ^[%lld](inflect: true) recipes left" xml:space="preserve">
+        <source>There are ^[%lld](inflect: true) recipes left</source>
+        <note>Pluralized quantity of items in the food list</note>
       </trans-unit>
       <trans-unit id="This app was made with the purpose of teaching some localization strategies. &#10;It includes localization for English, Spanish and Arabic and you can switch between the locales at any time in the settings screen." xml:space="preserve">
         <source>This app was made with the purpose of teaching some localization strategies. 
@@ -142,32 +142,6 @@ It includes localization for English, Spanish and Arabic and you can switch betw
         <source>page</source>
         <target>página</target>
         <note>This is replaced with the github link</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="FoodApp/Localization/en.lproj/Localizable.stringsdict" source-language="en" target-language="es" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5154h"/>
-    </header>
-    <body>
-      <trans-unit id="/There are %ld recipes available:dict/NSStringLocalizedFormatKey:dict/:string" xml:space="preserve">
-        <source>%#@RECIPES@</source>
-        <note/>
-      </trans-unit>
-      <trans-unit id="/There are %ld recipes available:dict/RECIPES:dict/one:dict/:string" xml:space="preserve">
-        <source/>
-        <target>Hay una receta disponible</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="/There are %ld recipes available:dict/RECIPES:dict/other:dict/:string" xml:space="preserve">
-        <source/>
-        <target>Hay %ld recetas disponibles</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="/There are %ld recipes available:dict/RECIPES:dict/zero:dict/:string" xml:space="preserve">
-        <source/>
-        <target>No hay recetas disponibles</target>
-        <note/>
       </trans-unit>
     </body>
   </file>
