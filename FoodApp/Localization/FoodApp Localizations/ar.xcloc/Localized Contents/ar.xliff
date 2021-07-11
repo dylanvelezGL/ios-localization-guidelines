@@ -11,7 +11,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="FoodApp/en.lproj/Localizable.strings" source-language="en" target-language="ar" datatype="plaintext">
+  <file original="FoodApp/Localization/en.lproj/Localizable.strings" source-language="en" target-language="ar" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5154h"/>
     </header>
@@ -152,6 +152,47 @@ It includes localization for English, Spanish and Arabic and you can switch betw
         <source>page</source>
         <target>صفحة</target>
         <note>This is replaced with the github link</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="FoodApp/Localization/en.lproj/Localizable.stringsdict" source-language="en" target-language="ar" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5154h"/>
+    </header>
+    <body>
+      <trans-unit id="/There are %ld recipes available:dict/NSStringLocalizedFormatKey:dict/:string" xml:space="preserve">
+        <source>%#@RECIPES@</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/There are %ld recipes available:dict/RECIPES:dict/few:dict/:string" xml:space="preserve">
+        <source/>
+        <target>هناك %ld وصفات متبقية</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/There are %ld recipes available:dict/RECIPES:dict/many:dict/:string" xml:space="preserve">
+        <source/>
+        <target>هناك %ld وصفات متبقية</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/There are %ld recipes available:dict/RECIPES:dict/one:dict/:string" xml:space="preserve">
+        <source/>
+        <target>هناك وصفة واحدة متبقية</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/There are %ld recipes available:dict/RECIPES:dict/other:dict/:string" xml:space="preserve">
+        <source/>
+        <target>هناك %ld وصفات متبقية</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/There are %ld recipes available:dict/RECIPES:dict/two:dict/:string" xml:space="preserve">
+        <source/>
+        <target>هناك %ld وصفات متبقية</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/There are %ld recipes available:dict/RECIPES:dict/zero:dict/:string" xml:space="preserve">
+        <source/>
+        <target>لا توجد وصفات متبقية</target>
+        <note/>
       </trans-unit>
     </body>
   </file>

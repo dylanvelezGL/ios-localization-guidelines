@@ -42,6 +42,6 @@ struct Localization {
     }
     
     struct FoodList {
-        static let availableRecipes = String(localized: "There are %ld recipes available", comment: "Pluralized number of recipes available")
+        static let availableRecipes = "There are %ld recipes available"
     }
 }

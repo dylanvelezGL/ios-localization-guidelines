@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>There are %ld recipes available</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@RECIPES@</string>
+		<key>RECIPES</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string></string>
+			<key>one</key>
+			<string>There's one recipe left</string>
+			<key>other</key>
+			<string>There are %ld recipes left</string>
+			<key>zero</key>
+			<string>There are no recipes left</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
