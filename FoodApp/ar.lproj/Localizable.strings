@@ -1,40 +1,34 @@
-/* No comment provided by engineer. */
+/* Hamburger description */
 "American style hamburguer with double cheese and 250gr mixed meat" = "هامبورجر على الطريقة الأمريكية مع دبل جبن و 250 جرام من اللحم المشكلة\n";
 
-/* No comment provided by engineer. */
-"Arabic" = "عربى";
-
-/* No comment provided by engineer. */
+/* Pizza description */
 "Delicious pepperoni pizza with extra cheese and secret italian spices" = "بيتزا البيبروني اللذيذة مع إضافة الجبن والبهارات الإيطالية السرية";
 
-/* No comment provided by engineer. */
-"English" = "الإنجليزية";
+/* English language option */
+"English" = "English";
 
-/* No comment provided by engineer. */
-"Español" = "الأسبانية";
-
-/* No comment provided by engineer. */
+/* Tab bar item */
 "Food" = "غذاء";
 
-/* No comment provided by engineer. */
+/* Text with links to know more about the project */
 "For more info please visit the blog post here or visit the github page" = "لمزيد من المعلومات يرجى زيارة منشور المدونة هنا أو زيارة صفحة جيثب\n";
 
 /* No comment provided by engineer. */
 "Hamburguer" = "هامبورغوير\n";
 
-/* No comment provided by engineer. */
+/* Salad description */
 "Healthiest and biggest salad you can find without forgetting all the flavor" = "أصح وأكبر سلطة يمكنك أن تجدها دون أن تنسى كل النكهة\n";
 
-/* No comment provided by engineer. */
+/* This is replaced by the gorilla logic blog link */
 "here" = "هنا";
 
-/* No comment provided by engineer. */
+/* Title of the internationalization section in settings */
 "Internationalization" = "تدويل";
 
-/* No comment provided by engineer. */
+/* Title of the language picker in settings */
 "Language" = "لغة";
 
-/* No comment provided by engineer. */
+/* This is replaced with the github link */
 "page" = "صفحة";
 
 /* No comment provided by engineer. */
@@ -46,21 +40,24 @@
 /* No comment provided by engineer. */
 "Sandwich" = "ساندويتش\n";
 
-/* No comment provided by engineer. */
+/* Tab bar item */
 "Settings" = "إعدادات";
 
-/* No comment provided by engineer. */
+/* Toggable option to show or not show the welcome screen */
 "Show Welcome Screen" = "إظهار شاشة الترحيب\n";
 
-/* No comment provided by engineer. */
+/* Spanish language option */
+"Spanish" = "Español";
+
+/* Purpose of the app */
 "This app was made with the purpose of teaching some localization strategies. \nIt includes localization for English, Spanish and Arabic and you can switch between the locales at any time in the settings screen." = "تم إنشاء هذا التطبيق بغرض تعليم بعض استراتيجيات الأقلمة.\nيتضمن تعريبًا للغة الإنجليزية والإسبانية والعربية ويمكنك التبديل بين اللغات في أي وقت في شاشة الإعدادات.";
 
-/* No comment provided by engineer. */
+/* Title of the welcome screen section in settings */
 "Welcome Screen" = "شاشة الترحيب\n";
 
-/* No comment provided by engineer. */
+/* Title of the welcome screen */
 "Welcome to FoodApp" = "مرحبا بكم في FoodApp\n";
 
-/* No comment provided by engineer. */
+/* Sandwich description */
 "Yummy large sandwich with a mix of vegetables and cheese" = "ساندويتش كبير ولذيذ مع مزيج من الخضار والجبن\n";
 

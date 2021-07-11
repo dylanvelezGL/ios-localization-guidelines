@@ -1,43 +1,37 @@
-/* No comment provided by engineer. */
+/* Hamburger description */
 "American style hamburguer with double cheese and 250gr mixed meat" = "Hamburguesa estilo americano con doble queso y 250 gramos de carne combinada";
 
-/* No comment provided by engineer. */
-"Arabic" = "Árabe";
-
-/* No comment provided by engineer. */
+/* Pizza description */
 "Delicious pepperoni pizza with extra cheese and secret italian spices" = "Deliciosa pizza de pepperoni con queso extra y especias italianas secretas";
 
-/* No comment provided by engineer. */
-"English" = "Inglés";
+/* English language option */
+"English" = "English";
 
-/* No comment provided by engineer. */
-"Español" = "Español";
-
-/* No comment provided by engineer. */
+/* Tab bar item */
 "Food" = "Comida";
 
-/* No comment provided by engineer. */
+/* Title of the app in the navigation */
 "Food App" = "Food App";
 
-/* No comment provided by engineer. */
+/* Text with links to know more about the project */
 "For more info please visit the blog post here or visit the github page" = "Para mas información visite el blog post aquí o la página de github";
 
 /* No comment provided by engineer. */
 "Hamburguer" = "Hamburguesa";
 
-/* No comment provided by engineer. */
+/* Salad description */
 "Healthiest and biggest salad you can find without forgetting all the flavor" = "La ensalada mas grande y saludable que puedes encontrar sin dejar pasar todo el sabor";
 
-/* No comment provided by engineer. */
+/* This is replaced by the gorilla logic blog link */
 "here" = "aquí";
 
-/* No comment provided by engineer. */
+/* Title of the internationalization section in settings */
 "Internationalization" = "Internacionalización";
 
-/* No comment provided by engineer. */
+/* Title of the language picker in settings */
 "Language" = "Idioma";
 
-/* No comment provided by engineer. */
+/* This is replaced with the github link */
 "page" = "página";
 
 /* No comment provided by engineer. */
@@ -49,21 +43,21 @@
 /* No comment provided by engineer. */
 "Sandwich" = "Sanduche";
 
-/* No comment provided by engineer. */
+/* Tab bar item */
 "Settings" = "Configuración";
 
-/* No comment provided by engineer. */
+/* Toggable option to show or not show the welcome screen */
 "Show Welcome Screen" = "Mostrar pantalla de bienvenida";
 
-/* No comment provided by engineer. */
+/* Purpose of the app */
 "This app was made with the purpose of teaching some localization strategies. \nIt includes localization for English, Spanish and Arabic and you can switch between the locales at any time in the settings screen." = "Esta app fue hecha con el propósito de enseñar algunas estrategias de localización. Incluye Inglés, Español, Árabe e incluso puedes cambiar entre ellos en cualquier momento en la pantalla de configuración.";
 
-/* No comment provided by engineer. */
+/* Title of the welcome screen section in settings */
 "Welcome Screen" = "Pantalla de Bienvenida";
 
-/* No comment provided by engineer. */
+/* Title of the welcome screen */
 "Welcome to FoodApp" = "Te damos la bienvenida a FoodApp";
 
-/* No comment provided by engineer. */
+/* Sandwich description */
 "Yummy large sandwich with a mix of vegetables and cheese" = "Delicioso sandwich grande con una combinación de vegetales y queso";
 
