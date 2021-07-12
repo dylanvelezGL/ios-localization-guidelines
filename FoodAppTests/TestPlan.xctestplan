@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "34C1E6BB-1025-4D48-8FAE-2866B0193EE9",
+      "name" : "Spanish",
+      "options" : {
+        "language" : "es"
+      }
+    },
+    {
+      "id" : "7090B054-62B2-450A-ABBC-629FEE1FD210",
+      "name" : "Arabic",
+      "options" : {
+        "language" : "ar"
+      }
+    },
+    {
+      "id" : "A3B85875-D9ED-4B14-86ED-5DFB08658950",
+      "name" : "English",
+      "options" : {
+        "language" : "en"
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:FoodApp.xcodeproj",
+        "identifier" : "48E25373269BC8D200236221",
+        "name" : "FoodAppTests"
+      }
+    }
+  ],
+  "version" : 1
+}

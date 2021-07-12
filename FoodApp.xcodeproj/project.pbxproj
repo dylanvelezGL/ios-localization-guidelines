@@ -28,7 +28,18 @@
 		48E2533F269B8E0100236221 /* String+LocalizedStringKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E2533E269B8E0100236221 /* String+LocalizedStringKey.swift */; };
 		48E25356269BB66E00236221 /* FoodItem+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E25355269BB66E00236221 /* FoodItem+Localization.swift */; };
 		48E25359269BB7BF00236221 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 48E2535B269BB7BF00236221 /* Localizable.stringsdict */; };
+		48E25377269BC8D200236221 /* FoodAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E25376269BC8D200236221 /* FoodAppTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48E25378269BC8D200236221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 481A52CD2697827F0031008A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 481A52D42697827F0031008A;
+			remoteInfo = FoodApp;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		481A52D52697827F0031008A /* FoodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,10 +69,20 @@
 		48E2535A269BB7BF00236221 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		48E2535C269BB7C300236221 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = ar; path = ar.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		48E2535D269BB7C400236221 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = es; path = es.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		48E25374269BC8D200236221 /* FoodAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48E25376269BC8D200236221 /* FoodAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodAppTests.swift; sourceTree = "<group>"; };
+		48E2537D269BC93C00236221 /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		481A52D22697827F0031008A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48E25371269BC8D200236221 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				481A52D72697827F0031008A /* FoodApp */,
+				48E25375269BC8D200236221 /* FoodAppTests */,
 				481A52D62697827F0031008A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				481A52D52697827F0031008A /* FoodApp.app */,
+				48E25374269BC8D200236221 /* FoodAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -204,6 +227,15 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		48E25375269BC8D200236221 /* FoodAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				48E2537D269BC93C00236221 /* TestPlan.xctestplan */,
+				48E25376269BC8D200236221 /* FoodAppTests.swift */,
+			);
+			path = FoodAppTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -224,6 +256,24 @@
 			productReference = 481A52D52697827F0031008A /* FoodApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		48E25373269BC8D200236221 /* FoodAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48E2537A269BC8D200236221 /* Build configuration list for PBXNativeTarget "FoodAppTests" */;
+			buildPhases = (
+				48E25370269BC8D200236221 /* Sources */,
+				48E25371269BC8D200236221 /* Frameworks */,
+				48E25372269BC8D200236221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48E25379269BC8D200236221 /* PBXTargetDependency */,
+			);
+			name = FoodAppTests;
+			productName = FoodAppTests;
+			productReference = 48E25374269BC8D200236221 /* FoodAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -236,6 +286,10 @@
 				TargetAttributes = {
 					481A52D42697827F0031008A = {
 						CreatedOnToolsVersion = 13.0;
+					};
+					48E25373269BC8D200236221 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 481A52D42697827F0031008A;
 					};
 				};
 			};
@@ -254,6 +308,7 @@
 			projectRoot = "";
 			targets = (
 				481A52D42697827F0031008A /* FoodApp */,
+				48E25373269BC8D200236221 /* FoodAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -267,6 +322,13 @@
 				48E25359269BB7BF00236221 /* Localizable.stringsdict in Resources */,
 				481A5316269AB3140031008A /* Localizable.strings in Resources */,
 				481A52DD269782810031008A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48E25372269BC8D200236221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +359,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		48E25370269BC8D200236221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E25377269BC8D200236221 /* FoodAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48E25379269BC8D200236221 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 481A52D42697827F0031008A /* FoodApp */;
+			targetProxy = 48E25378269BC8D200236221 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		481A5314269AB3140031008A /* Localizable.strings */ = {
@@ -511,6 +589,52 @@
 			};
 			name = Release;
 		};
+		48E2537B269BC8D200236221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66H7PAJH7N;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dylansvm.localization.FoodAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodApp.app/FoodApp";
+			};
+			name = Debug;
+		};
+		48E2537C269BC8D200236221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66H7PAJH7N;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dylansvm.localization.FoodAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodApp.app/FoodApp";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -528,6 +652,15 @@
 			buildConfigurations = (
 				481A52E4269782810031008A /* Debug */,
 				481A52E5269782810031008A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48E2537A269BC8D200236221 /* Build configuration list for PBXNativeTarget "FoodAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48E2537B269BC8D200236221 /* Debug */,
+				48E2537C269BC8D200236221 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
