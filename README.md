@@ -40,6 +40,8 @@ Localization to different languages and cultures is not something that is mandat
 
 - **Use of `.stringsdict` is still manual**: Xcode 13 has made it so you don't have to create a `.strings` file since it will gather all the strings and localizables of your project and export it to a localization catalog and then when you import the localized catalog, it should create all the required localized files. However, this is still a manual process with `.stringsdict` files, so you have to first create the file, define your keys and your base localization and then continue the process as normal by exporting the catalog and importing it when it's localized.
 
+- **Use test plans**: By converting your project to use testplans you can simply create new configurations on your testplan to run your tests in all the languages you support.
+
 # How to do it
 
 ## Switching languages
