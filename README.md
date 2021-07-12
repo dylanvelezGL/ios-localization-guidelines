@@ -1,14 +1,13 @@
 # FoodApp
 
 FoodApp is a personal project with the purpose of showcasing how to streamline localization with Xcode 13 and SwiftUI
-
-![Spanish](https://drive.google.com/file/d/13RYn9PPiEuZVt70hseBFlr_qSGHpdvuR/view?usp=sharing "Spanish App")
-![English](https://drive.google.com/file/d/1F1USu0bqAZd8MHtf33dxN-kHl-0kxJF_/view?usp=sharing "English App")
-![Arabic](https://drive.google.com/file/d/1-kYmQD2cksWzqSl4ktph0TctORZ5P9_V/view?usp=sharing "Arabic App")
+<img src="https://drive.google.com/uc?export=view&id=13RYn9PPiEuZVt70hseBFlr_qSGHpdvuR" style="width: 250px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+<img src="https://drive.google.com/uc?export=view&id=1F1USu0bqAZd8MHtf33dxN-kHl-0kxJF_" style="width: 250px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+<img src="https://drive.google.com/uc?export=view&id=1-kYmQD2cksWzqSl4ktph0TctORZ5P9_V" style="width: 250px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
 You can change the locale of the app at any time in the settings menu but you need to restart the app afterwards for it to be effective.
 
-![Settings](https://drive.google.com/file/d/1dG57M1_th7perN34x6X-EoPkmdO2Qon0/view?usp=sharing "Change Language")
+<img src="https://drive.google.com/uc?export=view&id=1dG57M1_th7perN34x6X-EoPkmdO2Qon0" style="width: 250px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 ## Blog Post
 
 This app is to be accompanied by a blog post explaining a bit more about the whole localization and internationalization process. This README will be updated when that's done.
