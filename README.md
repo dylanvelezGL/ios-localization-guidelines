@@ -145,6 +145,10 @@ struct PurposePageView: View {
 }
 ```
 
+## Importing and exporting localization
+
+Xcode 13 now gives us a better ease of use for the localization process. You only need to make sure the `Use Compiler to Extract Swift Strings` option is enabled in the build settings and then the only thing you need to do is click `product` -> `export localizations` and when you're ready to import the localized stuff, just click `product` -> `import localizations`
+
 ## Contributing
 Pull requests are welcome. You can open an issue for discussion purposes if you want to contribute a more streamlined experience for localization on iOS
 
