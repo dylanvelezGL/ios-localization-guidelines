@@ -26,7 +26,8 @@ struct FoodListItemView: View {
                 Text(NumberFormatter.localizedString(from: NSNumber(value: item.price), number: .currency))
                     .font(.caption)
                     .foregroundColor(.secondary)
-                Text(Strings.quantityLeft(item.quantityLeft))
+                Text(Strings.quantityLeft
+                        .pluralized(number: item.quantityLeft))
                     .lineLimit(3)
                     .font(.caption)
             }

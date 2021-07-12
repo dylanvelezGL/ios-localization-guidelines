@@ -21,6 +21,7 @@
 		481A530426979ED10031008A /* Locales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A530326979ED10031008A /* Locales.swift */; };
 		481A530A269AA07E0031008A /* Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A5309269AA07E0031008A /* Localized.swift */; };
 		481A5316269AB3140031008A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 481A5314269AB3140031008A /* Localizable.strings */; };
+		488DEF17269CC13D0075EFA1 /* String+Pluralized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488DEF16269CC13D0075EFA1 /* String+Pluralized.swift */; };
 		48E25335269B819300236221 /* LocalizedStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E25334269B819300236221 /* LocalizedStrings.swift */; };
 		48E25338269B81B800236221 /* SettingsView+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E25337269B81B800236221 /* SettingsView+Localization.swift */; };
 		48E2533A269B81D000236221 /* WelcomeView+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E25339269B81D000236221 /* WelcomeView+Localization.swift */; };
@@ -60,6 +61,7 @@
 		481A5315269AB3140031008A /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		481A5317269AB3330031008A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		481A5319269AB3C50031008A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		488DEF16269CC13D0075EFA1 /* String+Pluralized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Pluralized.swift"; sourceTree = "<group>"; };
 		48E25334269B819300236221 /* LocalizedStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedStrings.swift; sourceTree = "<group>"; };
 		48E25337269B81B800236221 /* SettingsView+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsView+Localization.swift"; sourceTree = "<group>"; };
 		48E25339269B81D000236221 /* WelcomeView+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WelcomeView+Localization.swift"; sourceTree = "<group>"; };
@@ -223,6 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				48E2533E269B8E0100236221 /* String+LocalizedStringKey.swift */,
+				488DEF16269CC13D0075EFA1 /* String+Pluralized.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				48E2533A269B81D000236221 /* WelcomeView+Localization.swift in Sources */,
 				481A5300269799B90031008A /* PurposePageView.swift in Sources */,
 				481A530426979ED10031008A /* Locales.swift in Sources */,
+				488DEF17269CC13D0075EFA1 /* String+Pluralized.swift in Sources */,
 				481A52EE269795FC0031008A /* WelcomeView.swift in Sources */,
 				48E25335269B819300236221 /* LocalizedStrings.swift in Sources */,
 				481A52F2269796310031008A /* FoodListItemView.swift in Sources */,

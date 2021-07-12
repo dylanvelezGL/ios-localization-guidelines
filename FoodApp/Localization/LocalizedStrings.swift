@@ -27,9 +27,7 @@ struct Localization {
         static let sandwichDescription = String(localized: "Yummy large sandwich with a mix of vegetables and cheese", comment: "Sandwich description")
         static let salad = String(localized: "Salad")
         static let saladDescription = String(localized: "Healthiest and biggest salad you can find without forgetting all the flavor", comment: "Salad description")
-        static func quantityLeft(number: Int) -> String {
-            String(format: String(localized: "QuantityLeft"), number)
-        }
+        static let quantityLeft = String(localized: "QuantityLeft")
     }
     
     struct Welcome {
