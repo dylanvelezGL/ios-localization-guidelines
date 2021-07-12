@@ -7,7 +7,7 @@ FoodApp is a personal project with the purpose of showcasing how to streamline l
 
 You can change the locale of the app at any time in the settings menu but you need to restart the app afterwards for it to be effective.
 
-<img src="https://drive.google.com/uc?export=view&id=1dG57M1_th7perN34x6X-EoPkmdO2Qon0" swidth="200"/>
+<img src="https://drive.google.com/uc?export=view&id=1dG57M1_th7perN34x6X-EoPkmdO2Qon0" width="200"/>
 ## Blog Post
 
 This app is to be accompanied by a blog post explaining a bit more about the whole localization and internationalization process. This README will be updated when that's done.
