@@ -26,6 +26,9 @@ struct FoodListItemView: View {
                 Text(NumberFormatter.localizedString(from: NSNumber(value: item.price), number: .currency))
                     .font(.caption)
                     .foregroundColor(.secondary)
+                Text(Strings.quantityLeft(item.quantityLeft))
+                    .lineLimit(3)
+                    .font(.caption)
             }
             .frame(maxWidth: .infinity)
         }
@@ -37,7 +40,8 @@ struct FoodListItem_Previews: PreviewProvider {
         FoodListItemView(item: FoodItem(name: Localization.Food.pizza,
                                         description: Localization.Food.pizzaDescription,
                                         imageName: "pizza",
-                                        price: 10))
+                                        price: 10,
+                                       quantityLeft: 0))
             .environment(\.locale, .init(identifier: "en"))
     }
 }

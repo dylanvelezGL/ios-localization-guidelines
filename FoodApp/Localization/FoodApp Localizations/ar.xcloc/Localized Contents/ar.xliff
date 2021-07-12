@@ -24,6 +24,7 @@
       </trans-unit>
       <trans-unit id="Arabic" xml:space="preserve">
         <source>عربى</source>
+        <target>عربى</target>
         <note>Arabic language option</note>
       </trans-unit>
       <trans-unit id="Delicious pepperoni pizza with extra cheese and secret italian spices" xml:space="preserve">
@@ -38,6 +39,7 @@
       </trans-unit>
       <trans-unit id="Español" xml:space="preserve">
         <source>Español</source>
+        <target>Español</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Food" xml:space="preserve">
@@ -87,6 +89,10 @@
         <target>بيتزا</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="QuantityLeft" xml:space="preserve">
+        <source>QuantityLeft</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Salad" xml:space="preserve">
         <source>Salad</source>
         <target>سلطة</target>
@@ -113,10 +119,6 @@
         <source>Español</source>
         <target>Español</target>
         <note>Spanish language option</note>
-      </trans-unit>
-      <trans-unit id="There are ^[%lld](inflect: true) recipes left" xml:space="preserve">
-        <source>There are ^[%lld](inflect: true) recipes left</source>
-        <note>Pluralized quantity of items in the food list</note>
       </trans-unit>
       <trans-unit id="This app was made with the purpose of teaching some localization strategies. &#10;It includes localization for English, Spanish and Arabic and you can switch between the locales at any time in the settings screen." xml:space="preserve">
         <source>This app was made with the purpose of teaching some localization strategies. 
@@ -152,6 +154,47 @@ It includes localization for English, Spanish and Arabic and you can switch betw
         <source>page</source>
         <target>صفحة</target>
         <note>This is replaced with the github link</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="FoodApp/Localization/en.lproj/Localizable.stringsdict" source-language="en" target-language="ar" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5154h"/>
+    </header>
+    <body>
+      <trans-unit id="/QuantityLeft:dict/COUNT:dict/few:dict/:string" xml:space="preserve">
+        <source>There are %d left!</source>
+        <target>لم يتبق سوى %d!</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/QuantityLeft:dict/COUNT:dict/many:dict/:string" xml:space="preserve">
+        <source>There are %d left!</source>
+        <target>لم يتبق سوى %d!</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/QuantityLeft:dict/COUNT:dict/one:dict/:string" xml:space="preserve">
+        <source>There is one left!</source>
+        <target>بقي واحد!</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/QuantityLeft:dict/COUNT:dict/other:dict/:string" xml:space="preserve">
+        <source>There are %d left!</source>
+        <target>لم يتبق سوى %d!</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/QuantityLeft:dict/COUNT:dict/two:dict/:string" xml:space="preserve">
+        <source>There are two left!</source>
+        <target>بقي اثنان!</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/QuantityLeft:dict/COUNT:dict/zero:dict/:string" xml:space="preserve">
+        <source>There are none left!</source>
+        <target>هناك لا يوجد!</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/QuantityLeft:dict/NSStringLocalizedFormatKey:dict/:string" xml:space="preserve">
+        <source>%#@COUNT@</source>
+        <note/>
       </trans-unit>
     </body>
   </file>

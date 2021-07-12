@@ -1,11 +1,17 @@
 /* Hamburger description */
 "American style hamburguer with double cheese and 250gr mixed meat" = "هامبورجر على الطريقة الأمريكية مع دبل جبن و 250 جرام من اللحم المشكلة\n";
 
+/* Arabic language option */
+"Arabic" = "عربى";
+
 /* Pizza description */
 "Delicious pepperoni pizza with extra cheese and secret italian spices" = "بيتزا البيبروني اللذيذة مع إضافة الجبن والبهارات الإيطالية السرية";
 
 /* English language option */
 "English" = "English";
+
+/* No comment provided by engineer. */
+"Español" = "Español";
 
 /* Tab bar item */
 "Food" = "غذاء";

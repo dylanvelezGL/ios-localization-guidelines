@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>QuantityLeft</key>
+	<dict>
+		<key>COUNT</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>لم يتبق سوى %d!</string>
+			<key>many</key>
+			<string>لم يتبق سوى %d!</string>
+			<key>one</key>
+			<string>بقي واحد!</string>
+			<key>other</key>
+			<string>لم يتبق سوى %d!</string>
+			<key>two</key>
+			<string>بقي اثنان!</string>
+			<key>zero</key>
+			<string>هناك لا يوجد!</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@COUNT@</string>
+	</dict>
+</dict>
+</plist>

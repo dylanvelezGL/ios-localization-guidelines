@@ -1,11 +1,17 @@
 /* Hamburger description */
 "American style hamburguer with double cheese and 250gr mixed meat" = "Hamburguesa estilo americano con doble queso y 250 gramos de carne combinada";
 
+/* Arabic language option */
+"Arabic" = "عربى";
+
 /* Pizza description */
 "Delicious pepperoni pizza with extra cheese and secret italian spices" = "Deliciosa pizza de pepperoni con queso extra y especias italianas secretas";
 
 /* English language option */
 "English" = "English";
+
+/* No comment provided by engineer. */
+"Español" = "Español";
 
 /* Tab bar item */
 "Food" = "Comida";
@@ -51,6 +57,9 @@
 
 /* Toggable option to show or not show the welcome screen */
 "Show Welcome Screen" = "Mostrar pantalla de bienvenida";
+
+/* Spanish language option */
+"Spanish" = "Español";
 
 /* Purpose of the app */
 "This app was made with the purpose of teaching some localization strategies. \nIt includes localization for English, Spanish and Arabic and you can switch between the locales at any time in the settings screen." = "Esta app fue hecha con el propósito de enseñar algunas estrategias de localización. Incluye Inglés, Español, Árabe e incluso puedes cambiar entre ellos en cualquier momento en la pantalla de configuración.";
